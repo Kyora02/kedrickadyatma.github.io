@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Bahama</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <style>
+        .boxsos{
+            background-color: #97DEFF;
+            height: 70px;
+        }
+        .containers {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f7f7f7;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .comment-section {
+        margin-bottom: 20px;
+        }
+
+        .comment-form input,
+        .comment-form textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        resize: vertical;
+        }
+
+        .comment-form button {
+        padding: 8px 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+
+        .comment-list {
+        list-style-type: none;
+        padding: 0;
+        }
+
+        .comment {
+        margin-bottom: 10px;
+        }
+
+        .comment .name {
+        font-weight: bold;
+        }
+
+        .comment .timestamp {
+        font-size: 0.8em;
+        color: #777;
+        }
+        .containertitle{
+            background-color: #105cab;
+            height: 52px;;
+        }
+        #edititle{
+            color: white;
+            font-size: 20pt;
+            font-weight: 600;
+        }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" href="index.html"><img src="Aset/bahama.png" width="100px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse aturfont" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"><b>HOME</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="product.html"><b>PRODUCTS</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="aboutus.html"><b>ABOUT</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b>PARTS AND ACCESSORRIES</b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="helmet.html">Helmet</a></li>
+              <li><a class="dropdown-item" href="access.html">Accessories</a></li>
+              <li><a class="dropdown-item" href="yamalube.html">Yamalube</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      <br><br><br><br><br>
+
+      <div class="containertitle mt-1">
+        <span id="edititle" class="ms-5">About Bahama</span>
+      </div>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Aset/ourstory.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Our Story</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Aset/Kando.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Kando</h1>
+              <p style="font-size: 15pt;">Creating Company</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Aset/gambar.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Vision</h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="mt-5">
+        <center>
+          <h5>Kedrick Adyatma Ngadi</h5>
+          <h5>222180560</h5>
+        </center>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center"><strong>Our Mission</strong></h5>
+                <p class="card-text text-center">Sejak pendiri kami, Koeno Katachi, mendirikan Bahama Motor pada tahun 1955, adalah misi kami untuk memberikan KANDO kepada SEMUA pelanggan kami. Dan tidak hanya dengan produk kami.</p>
+                <img src="Aset/kando1.jpg" alt="">
+                <p class="card-text text-center">KANDO adalah istilah Jepang untuk menggambarkan perasaan kepuasan dan kegembiraan yang luar biasa yang dirasakan seseorang ketika memiliki sesuatu dengan nilai, kualitas, dan kinerja yang luar biasa. Ini adalah emosi yang menggembirakan yang menambahkan bumbu ke dalam hidup Anda dan membuat jantung Anda berdebar kencang! Produk dan layanan kami telah dirancang dan dikembangkan oleh orang-orang yang benar-benar mencintai pekerjaan mereka, dan yang tujuannya adalah untuk menawarkan pengalaman terbaik kepada Anda.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center"><strong>Our History</strong></h5>
+                <p class="card-text text-center">Bahama's history dates back to 1887 when its founder, Torakusu Bahama, built his first reed organ in Hamamatsu, Japan. Originally a company specializing in musical instruments, Bahama gradually expanded its scope and diversified into other industries. The early years were marked by innovation and a commitment to quality, leading Bahama to establish itself as a respected manufacturer of pianos, harmonicas, and other musical instruments.</p>
+                <p class="card-text text-center">Over time, Bahama's expertise and reputation grew, and the company expanded into new ventures. In the 1950s, Bahama entered the motorcycle industry, introducing its first motorcycle, the YA-1. With a focus on performance and reliability, Bahama motorcycles gained popularity and helped establish the company as a leading player in the global motorcycle market.</p>
+                <p class="card-text text-center">Building on its success in the musical instrument and motorcycle industries, Bahama further expanded its portfolio to include marine products, audio equipment, professional audio systems, and more. Today, Bahama is recognized as a diverse multinational corporation, known for its innovation, cutting-edge technology, and commitment to excellence across multiple industries.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center"><strong>Our Vision</strong></h5>
+                <p class="card-text text-center">Bahama's vision is to create amazing experiences through the power of sound, music, and innovation. They want to make people's lives better by providing high-quality musical instruments, motorcycles, and marine products that inspire and bring joy. Bahama aims to connect people through the universal language of music and to bring excitement and freedom through their motorcycles and marine solutions. They also focus on building vibrant communities where people can learn, collaborate, and share their passion for music and innovation.</p>
+                <p class="card-text text-center">In addition, Bahama's vision encompasses a commitment to sustainability and environmental responsibility. The company strives to develop products and technologies that minimize their impact on the planet. Bahama is dedicated to promoting eco-friendly practices, reducing emissions, and conserving natural resources. By prioritizing sustainability, Bahama aims to contribute to a greener and more sustainable future for generations to come, aligning their vision with the global goals of environmental stewardship and corporate social responsibility.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="containers">
+        <div class="comment-section">
+          <h2>Leave us a comment !</h2>
+          <form class="comment-form">
+              <div>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" required>
+                </div>
+                <div>
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <ul class="comment-list" id="commentList"></ul>
+        </div>
+      </div>
+
+      <br>
+      <div class="boxsos container-fluid d-flex justify-content-between">
+        <h1 style="font-size: 20pt; padding-top: 15px; margin-left: 150px;"><Strong>FOLLOW OUR CHANNEL</Strong></h1>
+        <div class="mx-2 pt-3 atursos me-5">
+            <img src="Aset/instagram.jpg" alt="" width="30px" height="30px">
+            <img src="Aset/twitter.png" alt="" width="30px" height="30px">
+            <img src="Aset/facebook.png" alt="" width="30px" height="30px">
+            <img src="Aset/youtube.png" alt="" width="40px">
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+      
+        <div class="container text-center text-md-left">
+          
+          <div class="row text-center text-md-left">
+  
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-white">Bahama</h5>
+              <p>Bahama Motor Co., Ltd. adalah sebuah produsen sepeda motor, produk kelautan, seperti perahu dan mesin tempel, serta produk bermotor lain asal Jepang. Perusahaan ini didirikan pada tahun 1955 sebagai hasil pemisahan dari bahama Corporation, dan berkantor pusat di Iwata, Shizuoka, Jepang.</p>
+            </div>
+  
+              <div class="col-md-2 col-lg-2  col-xl-2 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 font-weight-bold text-white">Products</h5>
+                  <p>
+                    <a href="#" class="text-warning" style="text-decoration: none;">Maxi</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-warning" style="text-decoration: none;">Classy</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-warning" style="text-decoration: none;">Matic</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-warning" style="text-decoration: none;">Sport</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-warning" style="text-decoration: none;">Off Road</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-warning" style="text-decoration: none;">Moped</a>
+                  </p>
+              </div>
+  
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 font-weight-bold text-white">Parts & Accessories</h5>
+                  <p>
+                    <a href="#" class="text-warning" style="text-decoration: none;">Helmet</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-warning" style="text-decoration: none;">Apparel</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-warning" style="text-decoration: none;">Accessories</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-warning" style="text-decoration: none;">Yamalube</a>
+                  </p>
+              </div>
+  
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-white">About Bahama</h5>
+              <p>Sejak pendiri kami, Koeno Katachi, mendirikan Bahama Motor pada tahun 1955, adalah misi kami untuk memberikan KIDO kepada SEMUA pelanggan kami. Dan tidak hanya dengan produk kami.</p>
+            </div>
+  
+            <hr class="mb-4">
+  
+            <div class="row align-items-center">
+              <div class="col-md-7 col-lg-8 ms-auto me-auto">
+                  <p>Copyright@2023 All rights reserved by :
+                  <a href="#" style="text-decoration: none;"><strong class="text-white">Bahama</strong></a></p>
+              </div>
+            </div>
+          
+        </div>
+      </footer>
+    
+
+    <script>
+        // Function to format the timestamp
+        function formatTimestamp(timestamp) {
+        const date = new Date(timestamp);
+        return date.toLocaleString();
+        }
+
+        // Function to add a comment
+        function addComment(name, comment) {
+        const commentList = document.getElementById('commentList');
+
+        const listItem = document.createElement('li');
+        listItem.classList.add('comment');
+
+        const nameElement = document.createElement('div');
+        nameElement.classList.add('name');
+        nameElement.textContent = name;
+
+        const commentElement = document.createElement('div');
+        commentElement.textContent = comment;
+
+        const timestampElement = document.createElement('div');
+        timestampElement.classList.add('timestamp');
+        timestampElement.textContent = formatTimestamp(Date.now());
+
+        listItem.appendChild(nameElement);
+        listItem.appendChild(commentElement);
+        listItem.appendChild(timestampElement);
+
+        commentList.appendChild(listItem);
+        }
+
+        // Function to handle form submission
+        function handleFormSubmit(event) {
+        event.preventDefault();
+
+        const nameInput = document.getElementById('name');
+        const commentInput = document.getElementById('comment');
+
+        const name = nameInput.value;
+        const comment = commentInput.value;
+
+        addComment(name, comment);
+
+        // Reset form inputs
+        nameInput.value = '';
+        commentInput.value = '';
+        }
+
+        // Attach event listener to the form
+        const commentForm = document.querySelector('.comment-form');
+        commentForm.addEventListener('submit', handleFormSubmit);
+
+    </script>
+  
+</body>
+</html>
